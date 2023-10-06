@@ -1,0 +1,45 @@
+public class DynamicArray {
+    private int[] arr;
+    private int capacity;
+    private int size; // Last element can be indexed at size-1
+    
+    public DynamicArray(int cap){ // Class Constructor
+        arr = new int[cap];
+        capacity = cap;
+    }
+    
+    public void pushBack(int data){
+        // FIX THIS
+    }
+    public int popBack(){
+        // FIX THIS
+        return 0;
+    }
+
+    public int get(int i){
+        // FIX THIS
+        return 0;
+    }
+    public void set(int i, int value){
+        // FIX THIS
+    }
+    
+    public void remove(int i){
+        // FIX THIS
+    }
+    
+    public boolean isEmpty(){
+        // FIX THIS
+        return false;
+    }
+    
+    public int getSize(){
+        // FIX THIS
+        return 0;
+    }
+    
+    public void printStructure(){
+        // FIX THIS
+        System.out.print("Size = " + size + ", Cap = " + capacity + ", arr = [ ] ");
+    }
+}
